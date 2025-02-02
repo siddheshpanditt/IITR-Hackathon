@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000; /* Black background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff; /* White text */
+}
+
+.dashboard-container {
+    background: #1a1a1a; /* Dark gray container */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); /* White shadow */
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #fff; /* White text */
+}
+
+.status-card {
+    background: #262626; /* Dark gray card */
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* White shadow */
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #fff; /* White text */
+}
+
+.status-indicator {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: #000; /* Black text */
+}
+
+.status-indicator.online {
+    background-color: #fff; /* White background for online */
+    color: #000; /* Black text */
+}
+
+.status-indicator.offline {
+    background-color: #fff; /* White background for offline */
+    color: #000; /* Black text */
+}
+
+.status-indicator.healthy {
+    background-color: #fff; /* White background for healthy */
+    color: #000; /* Black text */
+}
+
+.status-indicator.unhealthy {
+    background-color: #fff; /* White background for unhealthy */
+    color: #000; /* Black text */
+}
+
+.status-message {
+    font-size: 0.9rem;
+    color: #ccc; /* Light gray text */
+    margin-top: 0.5rem;
+}
+
+.fix-button {
+    background-color: #fff; /* White button */
+    color: #000; /* Black text */
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fix-button:hover {
+    background-color: #e6e6e6; /* Light gray hover */
+}
+
+.response-message {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #fff; /* White text */
+}
